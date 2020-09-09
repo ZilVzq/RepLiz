@@ -19,9 +19,9 @@ class HomePage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                SmallCard(tex1: "Marketing", tex2: "123.4M"),
+                SmallCard(text1: "Marketing", text2: "123.4M"),
                 BigCard(
-                    numb: "432.1M",
+                    numb: 432,
                     numb2: "+12.3% of target",
                     icono: Icons.trending_up),
               ],
@@ -34,11 +34,11 @@ class HomePage extends StatelessWidget {
               children: [
 
                 BigCard(
-                  numb: "537",
+                  numb: 537,
                   numb2: "+22% of target",
                   icono: Icons.graphic_eq,
                 ),
-                SmallCard(tex1: "Sales", tex2: "345.8M"),
+                SmallCard(text1: "Sales", text2: "345.8M"),
               ],
             ),
           ),
